@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Z-Wallet</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap');
+        
     </style>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <header> 
-        <nav style="z-index: 2; min-height: 60px; position:absolute; width:100%; ">
-            <div style="display: flex; justify-content:space-between; margin-top: 50px; margin-left: 150px; margin-right: 150px;">
-            <div style="font-size: 29px; font-color:#6379F4; font-weight: bold;">Z-WALLET</div>
+    <header > 
+        <nav>
+            <div style="font-size: 29px; color:#6379F4; font-weight: bold;">Z-WALLET</div>
             <div>
                 <button style="box-sizing: border-box; background: #6379F4; border: 2px solid #FFFFFF;
                 border-radius: 12px; font-size: 16px; padding: 10px 36px; color: #FFFFFF;">Login</button>
@@ -21,21 +22,110 @@
                 border-radius: 12px; font-size: 16px; padding: 10px 26px; color: #6379F4;">Register</button>
             </div>
         </nav>
-        <div style="display: flex; justify-content: space-between; width:100%; position:absolute; z-index: 1; top:0; ">
-            <div style="flex:1; margin-top: 80px; margin-left: 150px;">
+    </header>
+    <main>
+        <div class="main1">
+            <div class="maintry">
                 <div style="max-width: 402px; margin-top: 100px">
-                    <h1>Awesome App For Saving <span style="color: #6379F4;"> Time </span>.</h1>
+                    <h1 style="font-weight: 800; font-size: 50px;">Awesome App For Saving <span style="color: #6379F4;"> Time.</span></h1>
                     <p>We bring you a mobile app for banking problems that often wasting much of your time.</p>
-                    <button style="box-sizing: border-box; background: #6379F4; border: 2px solid #FFFFFF;;
-                    border-radius: 12px; font-size: 16px; padding: 10px 26px; color: #FFFFFF;">Try It Free</button>
+                    <button class="btntry">Try It Free</button>
                 </div>
             </div>
-            <div style="flex:1; background-image : url(./assets/image/imgbg.png); background-size:contain; background-repeat: no-repeat; min-height: 440px; background-position-x: right; text-align: right; padding-right: 50px;">
-                <img style="margin-top: 75px;  margin-right: 150px;" src="./assets/image/phone.png" alt="" >
-
+            <div class="imgtry">
+                <div style=" background-repeat: no-repeat; background-image : url(./assets/image/imgbg.png); ">
+                    <img style="margin-top: 75px;  margin-right: 150px;" src="./assets/image/phone.png" alt="" >
+                </div>
             </div>
         </div>
-    </header>
-    
+        <div class="about" >
+            <div class="aboutmargin">
+                <p style="margin-bottom: 30px; font-weight: 800; font-size: 60px;">
+                <span style="color: #6379F4;">About</span> the Application.</p>
+                <p style="margin-bottom: 70px; font-weight: 400; font-size: 18px;">We have some great features from the application and it’s totally free <br> to use by all users around the world.</p>
+                <div class="blokabout">
+                    <div class="blok1">
+                        <img src="./assets/image/hp.png" alt="">
+                        <h1>24/7 Support</h1>
+                        <p>We have 24/7 contact support so you can contact us whenever you want and we will respond it.</p>
+                    </div>
+                    <div class="blok2">
+                        <img src="./assets/image/lock.png" alt="" >
+                        <h1>Data Privacy</h1>
+                        <p>We make sure your data is safe in our database and we will encrypt any data you submitted to us.</p>
+                    </div>
+                    <div class=" blok3">
+                        <img src="./assets/image/lock.png" alt="">
+                        <h1>Easy Download</h1>
+                        <p>Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="sponsor">
+                <div>
+                    <h1>100+ <span style="color: #6379F4;">Trusted</span> Partners.</h1>
+                    <p>We have reached global level and have 100+ <br> brand partners around the globe.</p>
+                </div>
+                <img style="margin-left: 100px;" src="./assets/image/sponsor.png" alt="" srcset="">
+            </div>
+            <div class="feature">
+                <div class="feature1">
+                    <img src="./assets/image/phonestat.png" alt="">
+                    <div style="text-align: left;">
+                        <h1 style="font-size: 70px;">All The <span style="color: #6379F4;">Great</span> <br> Zwallet Features.</h1>
+                        <div class="blockfeat">
+                            <h3><span style="color: #6379F4;">1.</span> Small Fee</h3>
+                            <p>We only charge 5% of every success transaction done in Zwallet app.</p>
+                        </div>
+                        <div class="blockfeat">
+                            <h3><span style="color: #6379F4;">2.</span> Data Secured</h3>
+                            <p>All your data is secured properly in our system and it’s encrypted.</p>
+                        </div>
+                        <div class="blockfeat">
+                            <h3><span style="color: #6379F4;">3.</span> User Friendly</h3>
+                            <p>Zwallet come up with modern and sleek design and not complicated.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi">
+                <h1> What Users are <span style="color: #6379F4;">Saying.</span></h1>
+                <p style="margin-bottom: 70px; font-size: 18px;">We have some great features from the application and it’s totally <br> free to use by all users around the world.</p>
+            <div style=" display: flex; justify-content: space-between; ">
+                    <div class=" block11 ">
+                        <img src="./assets/image/u2.png" alt="" srcset="">
+                        <h3>Sherina Chaw</h3>
+                        <p style="font-weight: 400;
+                        font-size: 18px;" >“I use this app since 2 years ago and this is the best app that I’ve ever use in my entire life”</p>
+                    </div>
+                    <div class="block11">
+                        <img src="./assets/image/u1.png" alt="" srcset="">
+                        <h3>Jessica Mera</h3>
+                        <p style="font-weight: 400;
+                        font-size: 18px;" >“I use Zwallet to manage all financial needs. It’s super easy to use and it’s 100% free app”</p>
+                    </div>
+                    <div class="block11">
+                        <img src="./assets/image/u3.png" alt="" srcset="">
+                        <h3>Robert Chandler</h3>
+                        <p style="font-weight: 400;
+                        font-size: 18px;">“Since I’m using this app, I’m not going to move to another similar app. Thank you Zwallet!”</p>
+                    </div>
+            </div>
+        </div>
+        </main>
+            <footer>
+                <h1>Zwallet</h1>
+                <p>Simplify financial needs and saving <br> much time in banking needs with <br> one single app.</p>
+                <hr style="border-top: 3px solid white;">
+                <div style=" display: flex; justify-content: space-between;">
+                    <p>2020 Zwallet. All right reserved.</p>
+                    <div style="margin-left: 40px;">
+                        <p>+62 5637 8882 9901 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; contact@zwallet.com</p>
+                        <p></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
 </body>
 </html>
