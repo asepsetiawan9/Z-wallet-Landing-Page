@@ -1,103 +1,103 @@
 body{
-    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
 }
 nav{
-    display: flex; justify-content:space-between; margin-top: 50px; margin-left: 150px; margin-right: 150px;
+display: flex; justify-content:space-between; margin-top: 50px; margin-left: 150px; margin-right: 150px;
 }
 .main1{
-    display: flex; justify-content: space-between; width:100%; position:absolute; z-index: -1; top:0; 
+display: flex; justify-content: space-between; width:100%; position:absolute; z-index: -1; top:0; 
 }
 .maintry{
-    flex:1; margin-top: 80px; margin-left: 150px;
+flex:1; margin-top: 80px; margin-left: 150px;
 }
 .btntry{
-    box-sizing: border-box; background: #6379F4; border: 2px solid #FFFFFF;;
-                    border-radius: 12px; font-size: 16px; padding: 10px 26px; color: #FFFFFF;
+box-sizing: border-box; background: #6379F4; border: 2px solid #FFFFFF;;
+    border-radius: 12px; font-size: 16px; padding: 10px 26px; color: #FFFFFF;
 }
 .imgtry{
-    flex:1;  background-size:contain;  min-height: 440px; background-position-x: right; text-align: right; padding-right: 50px;
+flex:1;  background-size:contain;  min-height: 440px; background-position-x: right; text-align: right; padding-right: 50px;
 }
 .about{
-    background-color: rgba(71, 58, 209, 0.06);;
-        text-align: center; margin-top: 700px;
+background-color: rgba(71, 58, 209, 0.06);;
+text-align: center; margin-top: 700px;
 }
 .aboutmargin{
-    margin-top: 850px;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+margin-top: 850px;
+margin-left: 150px;
+margin-right: 150px;
+padding-top: 50px;
+padding-bottom: 50px;
+
 }
 .blokabout{
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 
 .blockabout h1{
-    margin-bottom: 35px; font-weight: bold; font-size: 24px;
+margin-bottom: 35px; font-weight: bold; font-size: 14px;
 }
 .blockabout p{
-    font-weight: 300; font-size: 18px;
+font-weight: 300; font-size: 18px;
 }
 
 .blok1{
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    width: 270px;
-    height: 384px;
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+border-radius: 25px;
+background-color: #FFFFFF;
+width: 270px;
+height: 384px;
+text-align: center;
+padding-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
 
 }
 .blok2{
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    width: 270px;
-    height: 384px;
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+border-radius: 25px;
+background-color: #FFFFFF;
+width: 270px;
+height: 384px;
+text-align: center;
+padding-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
 }
 .blok3{
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    width: 270px;
-    height: 384px;
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+border-radius: 25px;
+background-color: #FFFFFF;
+width: 270px;
+height: 384px;
+text-align: center;
+padding-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
 }
 .sponsor{
-    padding-top: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 100px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
+padding-top: 100px;
+margin-left: 150px;
+margin-right: 150px;
+margin-bottom: 100px;
+background-color: #FFFFFF;
+display: flex;
+justify-content: space-between;
 }
 .sponsor h1{
-    color: #3A3D42; font-weight: 800; font-size: 60px;
+color: #3A3D42; font-weight: 800; font-size: 60px;
 }
 .sponsor p{
-    font-weight: 400; font-size: 18px; color: #3A3D42E5;
+font-weight: 400; font-size: 18px; color: #3A3D42E5;
 }
 
 .feature{
-    background-color: #473AD10F
+background-color: #473AD10F
 }
 .feature1{
-    padding-top: 90px;
-    margin-right: 150px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+padding-top: 90px;
+margin-right: 150px;
+margin-left: 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .blockfeat{
