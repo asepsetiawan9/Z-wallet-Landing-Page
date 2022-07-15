@@ -1,0 +1,21 @@
+nav{
+    background: url(/assets/img5/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+header{
+    padding-top: 50px;
+}
+
+.form-login1{
+    padding-top: 121px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
