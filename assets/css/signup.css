@@ -1,0 +1,112 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;  
+    }
+
+.parent{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    background: url(/assets/img5/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding-top: 50px;
+}
+
+.form-login1{
+    padding-top: 121px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+
+    .about{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    }
+    .aboutmargin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    }
+    .blokabout{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .blockabout h1{
+    margin-bottom: 35px; font-weight: bold; font-size: 24px;
+    }
+    .blockabout p{
+    font-weight: 300; font-size: 18px;
+    }
+    
+    .blok1{
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    width: 270px;
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    }
+    
+    .brand{
+    background-color: rgba(71, 58, 209, 0.06);
+    padding: 50px;
+    
+    }
+    .brand img{
+    display: block;
+    align-content: center;
+    width: 80%;
+    padding-left: 150px;
+    padding-right: 150px;
+    } 
+    
+    .card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .card div{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    }
+    
+    .testi{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    
+    }
+    .testi h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 70px;
+    }
+    
+    .block11{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    }
+    footer{
+    background-color: #6379F4;
+    color: #FFFFFF;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    
