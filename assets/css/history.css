@@ -42,4 +42,22 @@ body{
         border-radius: 12px; padding-top: 31px; padding-bottom: 15px; padding-left: 30px; margin-right: 30px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     }
     
-    
+    .input-group-text {
+
+        background-color: unset;
+        border: unset;
+        border-radius: unset;
+        border-bottom: 2px solid #A9A9A999;
+        color: #A9A9A999;
+      }
+      .form-control {
+        
+        border: unset;
+        border-radius: unset;
+        border-bottom: 2px solid #A9A9A999;
+
+      }
+      a{
+        text-decoration: none;
+      }
+

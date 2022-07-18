@@ -18,43 +18,88 @@
   <body>
     <header > 
         <nav>
-            <div style="font-size: 29px; color:#6379F4; font-weight: bold;">Z-WALLET</div>
-            <div class="d-flex flex-row">
-                <img style=" height:60px; margin-top: 5px;" src="./assets/imghome/foto.png" alt=""> 
-                <div class="d-flex flex-column">
-                <p style="font-size: 18px; color: #3A3D42; padding-left: 10px; text-align: center; font-weight: bold;">Robert Chandler</p> 
-                <p style="font-size: 16px; color: #3A3D42E5; padding-left: 10px;">+62 8139 3877 7946</p> 
+            <a class="home" href="/home.html">Z-WALLET</a>
+            <div class="d-flex flex-row gap-3" style="justify-content: center; text-align: center; align-items: center;">
+                <img style=" height:60px;" src="./assets/imghome/foto.png" alt=""> 
+                <div class="d-flex flex-column" style="justify-content: center; text-align:center; align-items: center;">
+                    <p style="font-size: 18px; color: #3A3D42; font-weight: bold;">Robert Chandler</p> 
+                    <p style="font-size: 16px; color: #3A3D42E5; ">+62 8139 3877 7946</p> 
                 </div>
-                <img style=" height:30px; justify-content: center; margin-top: 20px; margin-left: 20px;" src="./assets/imghome/bell.png" alt="">
+                <span id="dropdownMenuButton1" data-bs-toggle="dropdown"><i style="color: #4D4B57 ;" data-feather="bell"></i></span>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <div class="col-md-5 d-flex flex-column gap-3" style="background-color: #fff;
+                    border-radius: 25px; justify-content: center; width: 403px; padding: 30px;">
+                        <div>
+                            <p style="font-size: 17px; font-weight: bold; color: #7A7886;">Today</p>
+                        </div>
+                        <!-- style="background-color: #fff; border: #3A3D42; border-radius: 10px;  box-shadow: rgba(0, 0, 0, 0.05); " -->
+                        <div class="d-flex flex-row gap-3">
+                            <div><i style="color: green;" data-feather="arrow-down"></i></div>
+                            <div>
+                                <div><p>Transfered from Joshua Lee</p></div>
+                                <div><p>Rp220.000</p></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-3" >
+                            <div><i style="color: red;" data-feather="arrow-up"></i></div>
+                            <div>
+                                <div><p>Netflix subscription</p></div>
+                                <div><p>Rp220.000</p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-size: 17px; font-weight: bold; color: #7A7886;">This Week</p>
+                        </div>
+                        
+                        <div class="d-flex flex-row gap-3">
+                            <div><i style="color: green;" data-feather="arrow-down"></i></div>
+                            <div>
+                                <div><p>Transfered from Joshua Lee</p></div>
+                                <div><p>Rp220.000</p></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row gap-3" >
+                            <div><i style="color: red;" data-feather="arrow-up"></i></div>
+                            <div>
+                                <div><p>Netflix subscription</p></div>
+                                <div><p>Rp220.000</p></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+               
+                
             </div>
         </nav>
     </header>
 
-    <section style="padding:30px 150px; background-color: #E5E5E5;">
+    <section style="padding:40px 150px; background-color: #E5E5E5;">
     <div class="row min-vh-100 mw-100 ">
         <div class="col-12 col-md-3 parent d-flex flex-column" style="background-color: #fff; border-radius: 25px; justify-content: space-between;">
             <div class="d-flex flex-column gap-3">
                 <div style="padding: 40px 30px 0px 40px;">
-                    <a href="#" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="grid"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dashboard</a>
+                    <a href="/home.html" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="grid"></i>&nbsp;&nbsp;&nbsp;&nbsp;Dashboard</a>
                 </div>
                 <div style="padding: 40px 30px 0px 40px;">
-                    <a href="#" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="arrow-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;Transfer</a>
+                    <a href="/searchreciver.html" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="arrow-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;Transfer</a>
                 </div>
                 <div style="padding: 40px 30px 0px 40px;">
-                    <a href="#" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;Top Up</a>
+                    <a href="/howtotopup.html" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;Top Up</a>
                 </div>
                 <div style="padding: 40px 30px 0px 40px;">
-                    <a href="#" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="user"></i>&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
+                    <a href="/profile.html" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="user"></i>&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
                 </div>
             </div>
 
             <div style="padding: 30px 30px 30px 40px;">
-                <a href="#" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="log-out"></i>&nbsp;&nbsp;&nbsp;&nbsp;Logout</a>
+                <a href="/login.html" style="text-decoration: none; color: #3A3D42CC ;"><i data-feather="log-out"></i>&nbsp;&nbsp;&nbsp;&nbsp;Logout</a>
             </div>
 
         </div>
 
-        <div class="col-12 col-md-9 px-4 " >
+        <div class="col-12 col-md-9 px-3 " >
             <div class="d-flex flex-column gap-2" style="background-color: #fff; border-radius: 20px; padding: 30px; text-align: center; align-items: center;">
 
                 <img style="width: 80px;" src="./assets/imghome/foto.png" alt="">
@@ -62,25 +107,25 @@
                 <p style="font-size:24px; color: #4D4B57; font-weight: bold;">Robert Chandler</p>
                 <p style="font-size:16px; "> +62 813-9387-7946</p>
                 
-                    <div class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
+                    <a href="/personalinfo.html" class="d-flex flex-row" style="text-decoration: none; border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
                             <p style="font-size:16px; font-weight: bold;">Personal Information</p>
-                            <i data-feather="arrow-right">asasa</i>
-                    </div>
+                            <i data-feather="arrow-right"></i>
+                    </a>
 
-                    <div class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
+                    <a href="/changepass.html" class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
                         <p style="font-size:16px; font-weight: bold;">Change Password</p>
-                        <i data-feather="arrow-right">asasa</i>
-                    </div>
+                        <i data-feather="arrow-right"></i>
+                    </a>
 
-                    <div class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
+                    <a href="/changepin.html" class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
                         <p style="font-size:16px; font-weight: bold;">Change PIN</p>
-                        <i data-feather="arrow-right">asasa</i>
-                    </div>
+                        <i data-feather="arrow-right"></i>
+                    </a>
                     
-                    <div class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
+                    <a href="login.html" class="d-flex flex-row" style="border-radius: 12px; padding: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); background-color: #E5E8ED; color: #4D4B57; width: 50%; justify-content: space-between;">
                         <p style="font-size:16px; font-weight: bold;">Logout</p>
-                        <i data-feather="arrow-right">asasa</i>
-                    </div>
+                        <i data-feather="arrow-right"></i>
+                    </a>
             </div>
         </div>
 
