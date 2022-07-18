@@ -24,3 +24,19 @@ header{
     padding-left: 50px;
 }
 
+.input-group-text {
+
+    background-color: unset;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 2px solid #A9A9A999;
+    color: #A9A9A999;
+  }
+  .form-control {
+    
+    border: unset;
+    border-radius: unset;
+    border-bottom: 2px solid #A9A9A999;
+
+  }
+

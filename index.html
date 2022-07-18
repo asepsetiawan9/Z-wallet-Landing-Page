@@ -10,16 +10,23 @@
         
     </style>
     <link rel="stylesheet" href="./assets/css/styles.css">
+      <!-- Bootstrap CSS v5.2.0-beta1 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body>
+    
     <header > 
         <nav>
-            <div style="font-size: 29px; color:#6379F4; font-weight: bold;">Z-WALLET</div>
-            <div>
-                <button style="box-sizing: border-box; background: #6379F4; border: 2px solid #FFFFFF;
-                border-radius: 12px; font-size: 16px; padding: 10px 36px; color: #FFFFFF;">Login</button>
-                <button style="box-sizing: border-box; background: #FFFFFF; border: 2px solid #6379F4;;
-                border-radius: 12px; font-size: 16px; padding: 10px 26px; color: #6379F4;">Register</button>
+            <div style="font-size: 29px; color:#6379F4; font-weight: bold;">Z-WALLET              
+            </div>
+            <div class="fw9-btn" >
+                <div>
+                    <div class="d-flex p-3 p-md-0 flex-column flex-sm-row gap-3 ms-auto">
+                        <a class="login" href="/login.html" target="_blank">Login</a>
+                        <a class="regis" href="/signup.html" target="_blank">Register</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -29,7 +36,8 @@
                 <div style="max-width: 402px; margin-top: 100px">
                     <h1 style="font-weight: 800; font-size: 50px;">Awesome App For Saving <span style="color: #6379F4;"> Time.</span></h1>
                     <p>We bring you a mobile app for banking problems that often wasting much of your time.</p>
-                    <button class="btntry">Try It Free</button>
+                    
+                    <a class="btntry" href="/signup.html" target="_blank">Try It Free</a>
                 </div>
             </div>
             <div class="imgtry">
@@ -43,18 +51,18 @@
                 <p style="margin-bottom: 30px; font-weight: 800; font-size: 60px;">
                 <span style="color: #6379F4;">About</span> the Application.</p>
                 <p style="margin-bottom: 70px; font-weight: 400; font-size: 18px;">We have some great features from the application and it’s totally free <br> to use by all users around the world.</p>
-                <div class="blokabout">
+                <div class="blokabout gap-3">
                     <div class="blok1">
                         <img src="./assets/image/hp.png" alt="">
                         <h1>24/7 Support</h1>
                         <p>We have 24/7 contact support so you can contact us whenever you want and we will respond it.</p>
                     </div>
-                    <div class="blok2">
+                    <div class="blok1">
                         <img src="./assets/image/lock.png" alt="" >
                         <h1>Data Privacy</h1>
                         <p>We make sure your data is safe in our database and we will encrypt any data you submitted to us.</p>
                     </div>
-                    <div class=" blok3">
+                    <div class=" blok1">
                         <img src="./assets/image/lock.png" alt="">
                         <h1>Easy Download</h1>
                         <p>Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
@@ -67,24 +75,30 @@
                     <h1>100+ <span style="color: #6379F4;">Trusted</span> Partners.</h1>
                     <p>We have reached global level and have 100+ <br> brand partners around the globe.</p>
                 </div>
-                <img style="margin-left: 100px;" src="./assets/image/sponsor.png" alt="" srcset="">
+                <div>
+                    <img style="margin-left: 100px;" src="./assets/image/sponsor.png" alt="" srcset="">
+                </div>
             </div>
             <div class="feature">
                 <div class="feature1">
-                    <img src="./assets/image/phonestat.png" alt="">
+                    <div style="justify-content: center;">
+                        <img src="./assets/image/phonestat.png" alt="">
+                    </div>
                     <div style="text-align: left;">
                         <h1 style="font-size: 70px;">All The <span style="color: #6379F4;">Great</span> <br> Zwallet Features.</h1>
-                        <div class="blockfeat">
-                            <h3><span style="color: #6379F4;">1.</span> Small Fee</h3>
-                            <p>We only charge 5% of every success transaction done in Zwallet app.</p>
-                        </div>
-                        <div class="blockfeat">
-                            <h3><span style="color: #6379F4;">2.</span> Data Secured</h3>
-                            <p>All your data is secured properly in our system and it’s encrypted.</p>
-                        </div>
-                        <div class="blockfeat">
-                            <h3><span style="color: #6379F4;">3.</span> User Friendly</h3>
-                            <p>Zwallet come up with modern and sleek design and not complicated.</p>
+                        <div class="d-flex flex-column">
+                            <div class="blockfeat">
+                                <h3><span style="color: #6379F4;">1.</span> Small Fee</h3>
+                                <p>We only charge 5% of every success transaction done in Zwallet app.</p>
+                            </div>
+                            <div class="blockfeat">
+                                <h3><span style="color: #6379F4;">2.</span> Data Secured</h3>
+                                <p>All your data is secured properly in our system and it’s encrypted.</p>
+                            </div>
+                            <div class="blockfeat">
+                                <h3><span style="color: #6379F4;">3.</span> User Friendly</h3>
+                                <p>Zwallet come up with modern and sleek design and not complicated.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -92,20 +106,20 @@
             <div class="testi">
                 <h1> What Users are <span style="color: #6379F4;">Saying.</span></h1>
                 <p style="margin-bottom: 70px; font-size: 18px;">We have some great features from the application and it’s totally <br> free to use by all users around the world.</p>
-            <div style=" display: flex; justify-content: space-between; ">
-                    <div class=" block11 ">
+            <div class="d-flex flex-row gap-5;" style="justify-content:center; ">
+                    <div class=" block11 d-flex flex-column">
                         <img src="./assets/image/u2.png" alt="" srcset="">
                         <h3>Sherina Chaw</h3>
                         <p style="font-weight: 400;
                         font-size: 18px;" >“I use this app since 2 years ago and this is the best app that I’ve ever use in my entire life”</p>
                     </div>
-                    <div class="block11">
+                    <div class=" block11 d-flex flex-column">
                         <img src="./assets/image/u1.png" alt="" srcset="">
                         <h3>Jessica Mera</h3>
                         <p style="font-weight: 400;
                         font-size: 18px;" >“I use Zwallet to manage all financial needs. It’s super easy to use and it’s 100% free app”</p>
                     </div>
-                    <div class="block11">
+                    <div class=" block11 d-flex flex-column">
                         <img src="./assets/image/u3.png" alt="" srcset="">
                         <h3>Robert Chandler</h3>
                         <p style="font-weight: 400;
@@ -127,5 +141,9 @@
                 </div>
             </footer>
         </div>
+        <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
