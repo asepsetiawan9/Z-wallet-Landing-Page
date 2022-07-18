@@ -39,4 +39,7 @@ header{
     border-bottom: 2px solid #A9A9A999;
 
   }
+  .btn-fw9{
+    background-color: #DADADA; color: #88888F; border-radius: 12px; padding: 8px 141px; border-color: #fff;
+  }
 

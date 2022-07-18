@@ -1,17 +1,15 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
-    margin: 0;
-    
+    margin: 0;  
     }
-nav{
-    background: url(/assets/img5/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .parent{
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 30px;
+    background: url(/assets/img5/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     padding-top: 50px;
@@ -24,3 +22,31 @@ header{
     padding-left: 50px;
 }
 
+    footer{
+    background-color: #6379F4;
+    color: #FFFFFF;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    
+    .input-group-text {
+
+        background-color: unset;
+        border: unset;
+        border-radius: unset;
+        border-bottom: 2px solid #A9A9A999;
+        color: #A9A9A999;
+      }
+      .form-control {
+        
+        border: unset;
+        border-radius: unset;
+        border-bottom: 2px solid #A9A9A999;
+    
+      }
+      .btn-fw9{
+        background-color: #DADADA; color: #88888F; border-radius: 12px; padding: 8px 141px; border-color: #fff;
+      }
+    
